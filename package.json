@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/bunyan": "^1.8.11",
+    "@types/express": "^4.17.21",
+    "bunyan": "^1.8.15"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/multer": "^1.4.11",
+    "@types/sqlite3": "^3.1.11",
+    "csv-parser": "^3.0.0",
+    "drizzle-orm": "^0.30.8",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "sqlite3": "^5.1.7",
+    "typescript": "^5.4.5",
+    "winston": "^3.13.0"
+  }
+}
